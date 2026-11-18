@@ -1,0 +1,27 @@
+{
+  "grupo": "Grupo 4",
+  "problema": "credito",
+  "modelo": "Logística",
+  "metricas": {
+    "auc": 0.7395392142544179,
+    "exactitud_balanceada": 0.7065138016649628,
+    "brier": 0.1768042825485991
+  },
+  "hiperparametros": {
+    "max_iter": 2000,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "variable_categorica": "tipo_empleo",
+    "codificacion": "OneHotEncoder(drop=first)",
+    "categoria_referencia": "dependiente"
+  },
+  "semilla": 42,
+  "semilla_datos": 96244,
+  "fecha": "2026-11-18 02:30",
+  "versiones": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  }
+}
